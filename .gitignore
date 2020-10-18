@@ -1,49 +1,44 @@
-# http://www.gnu.org/software/automake
+# Dempedency directory
+node_modules
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# Dot files
+.idea
+.node-persist
 
-# http://www.gnu.org/software/autoconf
+# Log files
+debug.log
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Session files
+*.data.json
 
-# https://www.gnu.org/software/libtool/
+# Workspace files
+*.code-workspace
 
-/ltmain.sh
+# Lock files
+package-lock.json
 
-# http://www.gnu.org/software/texinfo
+# Other files
+premium.js
+quotemsg.js
+lib/quran.js
+util/flat.json
+util/getScreenshot.js
+utils/canvas.js
+utils/flat.json
+utils/getScreenshot.js
+lib/instaStory.js
+lib/jiwa.js
 
-/texinfo.tex
 
-# http://www.gnu.org/software/m4/
 
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
 
-# Generated Makefile 
-# (meta build system like autotools, 
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+
+
+
+
+
+
+
+
+
+
